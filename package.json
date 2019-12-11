@@ -1,0 +1,28 @@
+{
+  "name": "Hapi-Mongoose-Boilerplate",
+  "version": "1.1.0",
+  "description": "Hapi-Mongoose Boilerplate by Guillaume Duhan, 2019.",
+  "name": "Hapi-Boilerplate",
+  "version": "1.0.0",
+  "description": "Hapi boilerplate by Guillaume Duhan, 2019.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Guillaume Duhan",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "bcrypt": "^3.0.6",
+    "chalk": "^2.4.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "laabr": "^5.1.2",
+    "mongoose": "^5.7.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3"
+  }
+}
